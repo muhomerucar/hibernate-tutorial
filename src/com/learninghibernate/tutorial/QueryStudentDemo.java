@@ -15,10 +15,11 @@ public class QueryStudentDemo {
                 .configure("hibernate.cfg.xml")
                 .addAnnotatedClass(Student.class)
                 .buildSessionFactory();
+        // and then create session
+        Session session = factory.getCurrentSession();
 
         try {
-            // and then create session
-            Session session = factory.getCurrentSession();
+
 
             //start transaction
             session.beginTransaction();
@@ -47,8 +48,6 @@ public class QueryStudentDemo {
         } finally {
             factory.close();
         }
-
-
     }
 
     public static void displayStudents(List<Student> students){
