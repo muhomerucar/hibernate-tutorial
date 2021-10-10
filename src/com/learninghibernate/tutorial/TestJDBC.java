@@ -9,9 +9,9 @@ public class TestJDBC {
     public static void main(String[] args) {
 
 
-        String jdbcUrl = "jdbc:mysql://localhost:3306/student_list?useSSL=false&serverTimezone=UTC";
-        String user = "unistudent";
-        String password = "unistudent";
+        String jdbcUrl = "jdbc:mysql://localhost:3306/NameOftheDatabase?useSSL=false&serverTimezone=UTC";
+        String user = "DatabaseUserId";
+        String password = "DatabaseUserPassword";
 
         try {
             System.out.println("Connecting to database " +jdbcUrl);

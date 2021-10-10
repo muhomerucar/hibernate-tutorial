@@ -8,9 +8,9 @@
 
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/student_list?useSSL=false&amp;serverTimezone=UTC</property>
-        <property name="connection.username">unistudent</property>
-        <property name="connection.password">unistudent</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/NameOftheDatabase?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="connection.username">DatabaseUserId</property>
+        <property name="connection.password">DatabaseUserPassword</property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
